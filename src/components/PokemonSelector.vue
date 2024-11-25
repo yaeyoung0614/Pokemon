@@ -87,11 +87,20 @@ export default {
 <style>
 select {
   margin: 10px;
-  padding: 5px;
+  padding: 10px;
+  width: 300px;
+  font-family: "JetBrains Mono", monospace;
+  text-align: center;
+  background-color: #f6dfe0;
+  border-radius: 10px;
 }
 button {
   padding: 5px 10px;
   cursor: pointer;
+  font-family: "JetBrains Mono", monospace;
+  background-color: #eb9bc2;
+  border: none;
+  border-radius: 10px;
 }
 button:disabled {
   cursor: not-allowed;

@@ -97,7 +97,7 @@ export default {
 
 <style>
 body {
-  background-color: #fdfecc;
+  background-color: #fff7f7;
   margin: 0;
   padding: 0;
 }

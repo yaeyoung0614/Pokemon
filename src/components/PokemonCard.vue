@@ -42,8 +42,10 @@ export default {
   border-radius: 10px;
   text-align: center;
   margin: 10px;
-  width: 350px;
+  width: 300px;
   height: 400px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
 }
 .pokemon-card.fire {
   background-color: #fddfdf;
@@ -67,10 +69,13 @@ export default {
   background-color: #e0d4e6;
 }
 .pokemon-card.steel {
-  background-color: #a0969b;
+  background-color: #e9e5e5;
+}
+.pokemon-card.bug {
+  background-color: #deb458;
 }
 .pokemon-card.normal {
-  background-color: #a0969b;
+  background-color: #e9e5e5;
 }
 .pokemon-card.psychic {
   background-color: #dab7ca;

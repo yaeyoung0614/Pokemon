@@ -1,17 +1,17 @@
 <template>
   <div>
     <h2>Battle Result</h2>
-    <div class="battle-stats">
-      <p>{{ pokemon1.name }} Total Stats: {{ totalStats1 }}</p>
-      <p>{{ pokemon2.name }} Total Stats: {{ totalStats2 }}</p>
-    </div>
-    <p>{{ battleResult }}</p>
     <img
       v-if="winner"
       :src="winner.sprites.front_default"
       :alt="winner.name"
       class="winner-icon"
     />
+    <div class="battle-stats">
+      <p>{{ pokemon1.name }} Total Stats: {{ totalStats1 }}</p>
+      <p>{{ pokemon2.name }} Total Stats: {{ totalStats2 }}</p>
+    </div>
+    <p>{{ battleResult }}</p>
   </div>
 </template>
 
@@ -73,6 +73,7 @@ export default {
 <style>
 h2 {
   margin-top: 20px;
+  font-family: "JetBrains Mono", monospace;
 }
 .battle-stats {
   margin-bottom: 10px;
@@ -81,5 +82,8 @@ h2 {
   margin-top: 10px;
   width: 100px;
   height: 100px;
+}
+p {
+  font-family: "JetBrains Mono", monospace;
 }
 </style>
